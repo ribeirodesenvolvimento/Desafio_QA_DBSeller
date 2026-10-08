@@ -1,0 +1,26 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+!.env.example
+
+# Relatórios e resultados do Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários de editores
+.vscode/
+.idea/

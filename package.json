@@ -1,0 +1,21 @@
+
+{
+  "name": "desafio_qa_dbseller",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automacao de testes de recrutamento do OrangeHRM com Playwright e TypeScript",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^10.6.0",
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.4",
+    "dotenv": "^18.0.6",
+    "typescript": "^7.0.2"
+  }
+}
